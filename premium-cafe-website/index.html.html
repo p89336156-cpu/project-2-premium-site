@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bánh Mì & Me - Authentic Vietnamese Café</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Lexend:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Welcome Animation Popup -->
+    <div class="welcome-overlay" id="welcomeOverlay">
+        <div class="welcome-text">
+            <h1 class="welcome-message">This space is for you :)</h1>
+            <div class="welcome-subtitle">Welcome to Bánh Mì & Me</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Bánh Mì & Me</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-illustration">
+                <!-- Placeholder for custom illustration -->
+                <div class="illustration-placeholder banh-mi-illustration">
+                    <span class="placeholder-text">🥖 Bánh Mì Illustration Here</span>
+                </div>
+            </div>
+            <h1 class="hero-title">Bánh Mì & Me</h1>
+            <p class="hero-subtitle">Authentic Vietnamese Bites & Bold Brews</p>
+            <p class="hero-description">Made with Love by Linh & Mùi</p>
+            <div class="hero-badges">
+                <div class="badge">
+                    <span class="badge-icon">🏡</span>
+                    <span>Family-owned since October 2025</span>
+                </div>
+                <div class="badge">
+                    <span class="badge-icon">🌿</span>
+                    <span>Fresh in-house prep</span>
+                </div>
+            </div>
+            <a href="#menu" class="cta-button">Explore Our Menu</a>
+        </div>
+        <div class="hero-decoration"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <div class="about-content">
+                <div class="about-illustration">
+                    <div class="illustration-placeholder coffee-illustration">
+                        <span class="placeholder-text">☕ Vietnamese Coffee Illustration</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-tag">Our Story</span>
+                    <h2 class="section-title">Where Heritage Meets Heart</h2>
+                    <p class="about-description">
+                        At Bánh Mì & Me, every sandwich tells a story. Born from Linh and Mùi's passion 
+                        for sharing authentic Vietnamese flavors, our café is more than just a place to eat—
+                        it's a gathering space where tradition meets warmth.
+                    </p>
+                    <p class="about-description">
+                        We prepare everything fresh daily, honoring recipes passed down through generations 
+                        while creating new memories with every guest who walks through our doors.
+                    </p>
+                    <div class="about-values">
+                        <div class="value-item">
+                            <span class="value-icon">💚</span>
+                            <h3>Authentic</h3>
+                            <p>Traditional Vietnamese recipes</p>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">👨‍🍳</span>
+                            <h3>Handcrafted</h3>
+                            <p>Made fresh every day</p>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-icon">🌟</span>
+                            <h3>Community</h3>
+                            <p>A space for everyone</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="section-container">
+            <div class="menu-header">
+                <span class="section-tag">What We Serve</span>
+                <h2 class="section-title">Our Menu</h2>
+                <p class="section-subtitle">Authentic flavors crafted with love</p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Bánh Mì Category -->
+                <div class="menu-category">
+                    <div class="category-header">
+                        <div class="illustration-placeholder small-illustration">
+                            <span class="placeholder-text">🥖</span>
+                        </div>
+                        <h3>Signature Bánh Mì</h3>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>The OG Bánh Mì</h4>
+                                <span class="price">$8.50</span>
+                            </div>
+                            <p>Classic pork pâté, pickled veggies, cilantro, jalapeños</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Grilled Chicken</h4>
+                                <span class="price">$9.00</span>
+                            </div>
+                            <p>Lemongrass marinated chicken, fresh herbs, spicy mayo</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Tofu Delight</h4>
+                                <span class="price">$8.00</span>
+                            </div>
+                            <p>Crispy tofu, mango slaw, peanut sauce, mint</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coffee Category -->
+                <div class="menu-category">
+                    <div class="category-header">
+                        <div class="illustration-placeholder small-illustration">
+                            <span class="placeholder-text">☕</span>
+                        </div>
+                        <h3>Vietnamese Coffee</h3>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Cà Phê Sữa Đá</h4>
+                                <span class="price">$5.50</span>
+                            </div>
+                            <p>Iced coffee with sweetened condensed milk</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Cà Phê Đen</h4>
+                                <span class="price">$4.50</span>
+                            </div>
+                            <p>Traditional black coffee, hot or iced</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Egg Coffee</h4>
+                                <span class="price">$6.00</span>
+                            </div>
+                            <p>Hanoi-style with whipped egg yolk and condensed milk</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extras Category -->
+                <div class="menu-category">
+                    <div class="category-header">
+                        <div class="illustration-placeholder small-illustration">
+                            <span class="placeholder-text">🍜</span>
+                        </div>
+                        <h3>Extras & Sides</h3>
+                    </div>
+                    <div class="menu-items">
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Spring Rolls (2pc)</h4>
+                                <span class="price">$6.00</span>
+                            </div>
+                            <p>Fresh vegetables, rice noodles, peanut sauce</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Vietnamese Iced Tea</h4>
+                                <span class="price">$4.00</span>
+                            </div>
+                            <p>Sweet and refreshing jasmine tea</p>
+                        </div>
+                        <div class="menu-item">
+                            <div class="item-header">
+                                <h4>Coconut Water</h4>
+                                <span class="price">$4.50</span>
+                            </div>
+                            <p>Fresh young coconut water</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="section-container">
+            <div class="gallery-header">
+                <span class="section-tag">Moments</span>
+                <h2 class="section-title">Gallery</h2>
+                <p class="section-subtitle">A glimpse into our café</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="illustration-placeholder gallery-illustration">
+                        <span class="placeholder-text">📸 Café Interior Photo</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="illustration-placeholder gallery-illustration">
+                        <span class="placeholder-text">📸 Food Photography</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="illustration-placeholder gallery-illustration">
+                        <span class="placeholder-text">📸 Coffee Art</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="illustration-placeholder gallery-illustration">
+                        <span class="placeholder-text">📸 Customer Moments</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="section-tag">Get in Touch</span>
+                    <h2 class="section-title">Visit Us</h2>
+                    <p class="contact-description">
+                        Come experience authentic Vietnamese flavors in a warm, welcoming space.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <h4>Location</h4>
+                                <p>123 Main Street<br>Your City, ST 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🕐</span>
+                            <div>
+                                <h4>Hours</h4>
+                                <p>Mon-Fri: 8am - 6pm<br>Sat-Sun: 9am - 5pm</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📞</span>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>(555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💌</span>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@banhmiandme.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">TikTok</a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <h3>Send us a message</h3>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Bánh Mì & Me. Made with 💚 by Linh & Mùi</p>
+            <p class="footer-tagline">This space is for you :)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
